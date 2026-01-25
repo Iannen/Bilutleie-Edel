@@ -1,0 +1,7 @@
+package KonseptuelleKlasser;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class UtleieTest {
+
+}
