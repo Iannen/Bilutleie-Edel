@@ -2,9 +2,9 @@
 
 ## Background
 
-This project was [an ungraded obligatory assignment](https://github.com/Iannen/DbAdmin/blob/main/DAT107%20obl3%20v%C3%A5ren%202023.pdf) at Western Norway University of Applied Sciences (HVL) for the course 'DAT107 Database Systems'
+This project was [an ungraded obligatory assignment](https://github.com/Iannen/Bilutleie-Edel/blob/main/DAT109%202024%20%C3%98velse%202.pdf) at Western Norway University of Applied Sciences (HVL) for the course 'DAT109 Systemutvikling'
 
-It was developed as a collaborative effort of group 26 in the spring of 2023, group member initials are CH, TS and EAH (They have not been contacted about this republish so I am hesitant to publish full names)
+It was developed as a collaborative effort of group 17 in the spring of 2024, group member initials are CH, MA, RM, NL, ØS og TS (They have not been contacted about this republish so I am hesitant to publish full names)
 
 ## Run Instructions
 
