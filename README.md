@@ -1,1 +1,26 @@
-https://github.com/h671420/DAT109-Oblig2
+# DBAdmin
+
+## Background
+
+This project was [an ungraded obligatory assignment](https://github.com/Iannen/DbAdmin/blob/main/DAT107%20obl3%20v%C3%A5ren%202023.pdf) at Western Norway University of Applied Sciences (HVL) for the course 'DAT107 Database Systems'
+
+It was developed as a collaborative effort of group 26 in the spring of 2023, group member initials are CH, TS and EAH (They have not been contacted about this republish so I am hesitant to publish full names)
+
+## Run Instructions
+
+**Prerequisites:** Java 17 installed
+
+1. Download dbadmin.jar from following page: 
+   [DBAdmin v1.0](https://github.com/Iannen/DbAdmin/releases/tag/v1.0)
+   (feel free to DL source code or clone repo if you want to take a look)
+
+3. Open a terminal/command prompt at the location where the jar was downloaded.
+
+4. Run the application:
+
+```bash
+java -jar dbadmin.jar
+```
+
+
+(For bookkeeping purposes, Previous repo -> [https://github.com/h671420/DAT107_Oblig3](https://github.com/h671420/DAT109-Oblig2))
