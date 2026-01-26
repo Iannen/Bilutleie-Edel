@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class EkspeditoerTest {
 // public Ekspeditoer(int id, String brukernavn, String passord, String navn, int telefonNummer) {
 	@Test 
-	public void testKonstruktør() {
+	public void testKonstruktor() {
 		Ekspeditoer ekspeditoer = new Ekspeditoer(1,"henHen","pass123","Henrik Henriksen", 22334455);
 		assertEquals(1, ekspeditoer.getId());
 		assertEquals("henHen", ekspeditoer.getBrukernavn());

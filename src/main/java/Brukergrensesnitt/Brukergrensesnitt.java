@@ -127,7 +127,7 @@ public class Brukergrensesnitt {
                     //velg ut en kunde
                     kunde = Prosedyrer.velgKunde(bilutleiefirma);
                     //finn lokasjon til ekspeditøren
-                    lokasjon = bilutleiefirma.getLokasjoner().stream().filter(a->a.getEkspeditoerer().contains(ekspeditoer)).toList().getFirst();
+                    lokasjon = bilutleiefirma.getLokasjoner().stream().filter(a->a.getEkspeditoerer().contains(ekspeditoer)).toList().get(0);
                     //velg en bil fra lokasjonens biler
                     bil = Prosedyrer.velgBil(lokasjon);
                     //opprette ut utleie for kunden og bilen

@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
 
 class BilutleiefirmaTest {
 @Test
-public void testKonstruktør() {
+public void testKonstruktor() {
 	Bilutleiefirma bilutleiefirma = new Bilutleiefirma("Hertz",12345678,"Edvard Munchs veg");
 	assertEquals("Hertz", bilutleiefirma.getNavn());
-	assertEquals("12345678", bilutleiefirma.getTelefonnummer());
+	assertEquals(12345678, bilutleiefirma.getTelefonnummer());
 	assertEquals("Edvard Munchs veg", bilutleiefirma.getAdresse());
 }
 }

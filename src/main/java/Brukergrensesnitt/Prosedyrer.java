@@ -74,7 +74,7 @@ public class Prosedyrer {
             return null;
         if (matchList.size()>1)
             throw new RuntimeException("Oppgitt brukernavn og passord var en match for mer enn ett objekt. Databasen er korrupt");
-        return matchList.getFirst();
+        return matchList.get(0);
     }
 
 
@@ -97,7 +97,7 @@ public class Prosedyrer {
             return null;
         if (matchList.size()>1)
             throw new RuntimeException("Oppgitt ID var en match for mer enn ett objekt. Databasen er korrupt");
-        return matchList.getFirst();
+        return matchList.get(0);
     }
 
     public static Ekspeditoer lagEkspeditoer() {

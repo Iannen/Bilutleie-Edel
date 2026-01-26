@@ -2,7 +2,6 @@ package main;
 
 import Brukergrensesnitt.Brukergrensesnitt;
 import KonseptuelleKlasser.*;
-import com.sun.jdi.connect.spi.TransportService;
 
 public class Main {
 

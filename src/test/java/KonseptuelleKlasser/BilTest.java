@@ -7,10 +7,10 @@ import org.junit.jupiter.api.Test;
 class BilTest {
 	
 	 @Test
-	    public void testKonstruktør() {
+	    public void testKonstruktor() {
 	        Bil bil = new Bil(1,"EN-236587", "Tesla", "Model S", "Hvit", 1);
 
-	        assertEquals("SR-236587", bil.getRegNr());
+	        assertEquals("EN-236587", bil.getRegNr());
 	        assertEquals("Tesla", bil.getMerke());
 	        assertEquals("Model S", bil.getModell());
 	        assertEquals("Hvit", bil.getFarge());

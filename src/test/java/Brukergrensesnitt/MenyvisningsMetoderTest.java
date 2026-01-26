@@ -2,11 +2,8 @@ package Brukergrensesnitt;
 
 import KonseptuelleKlasser.Administrator;
 import KonseptuelleKlasser.Bilutleiefirma;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Her skrives menyene ut for visuell inspeksjon
