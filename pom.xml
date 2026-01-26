@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>click.kaffannen</groupId>
-    <artifactId>Edel</artifactId>
+    <artifactId>edel</artifactId>
     <version>1.0-SNAPSHOT</version>
 
   <properties>
@@ -51,7 +51,7 @@
                   <mainClass>main.Main</mainClass>
                 </transformer>
               </transformers>
-              <finalName>Edel</finalName> 
+              <finalName>edel</finalName> 
             </configuration>
           </execution>
         </executions>
