@@ -23,4 +23,4 @@ java -jar edel.jar
 ```
 
 
-(For bookkeeping purposes, Previous repo -> [https://github.com/h671420/DAT107_Oblig3](https://github.com/h671420/DAT109-Oblig2))
+(For bookkeeping purposes, Previous repo -> https://github.com/h671420/DAT109-Oblig2)
