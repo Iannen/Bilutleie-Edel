@@ -27,8 +27,10 @@ public class Prosedyrer {
         administrator = login(bilutleiefirma.getAdmins(),brukernavn,passord);
         if (administrator==null)
             System.out.println("Pålogging mislykkes");
+        
         else
             System.out.println("Velkommen "+administrator.getNavn()+"! Go easy on 'em!");
+        scanner.nextLine();
         return administrator;
     }
     public static Ekspeditoer ekspeditoerLogin(Lokasjon lokasjon) {
@@ -42,6 +44,7 @@ public class Prosedyrer {
             System.out.println("Pålogging mislykkes");
         else
             System.out.println("Velkommen "+ekspeditoer.getNavn()+"! Vær snill med kundene!");
+        scanner.nextLine();
         return ekspeditoer;
     }
     public static Kunde kundeLogin(Bilutleiefirma bilutleiefirma){
@@ -55,6 +58,7 @@ public class Prosedyrer {
             System.out.println("Pålogging mislykkes");
         else
             System.out.println("Velkommen "+kunde.getNavn()+"! Nyt utvalget!");
+        scanner.nextLine();
         return kunde;
     }
 
@@ -89,6 +93,7 @@ public class Prosedyrer {
             System.out.println("Det eksisterer ingen lokasjoner med id "+lokasjonId);
         else
             System.out.println("Lokasjon "+lokasjon.getId()+" på adresse "+lokasjon.getAdresse()+" er valgt");
+        scanner.nextLine();
         return lokasjon;
     }
     static <T extends Id>T velg(List<T> liste, String id) {

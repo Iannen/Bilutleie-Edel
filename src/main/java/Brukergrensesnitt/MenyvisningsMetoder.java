@@ -1,5 +1,7 @@
 package Brukergrensesnitt;
 
+import java.io.IOException;
+
 import KonseptuelleKlasser.Administrator;
 import KonseptuelleKlasser.Bilutleiefirma;
 import KonseptuelleKlasser.Ekspeditoer;
@@ -18,6 +20,7 @@ public class MenyvisningsMetoder {
                 .append("\t3. ").append("Logg inn som ").append(NavnPaaTing.KUNDE).append("\n")
                 .append("\t4. ").append("Registrer ny ").append(NavnPaaTing.KUNDE).append("\n")
                 .append("Returner '0' for å avslutte");
+        clearConsole();
         System.out.println(sb);
         sb.setLength(0);
     }
@@ -28,6 +31,7 @@ public class MenyvisningsMetoder {
                 .append("\t2. ").append("Opprett ").append(NavnPaaTing.UTLEIEKONTOR).append("\n")
                 .append("\t3. ").append("Opprett ").append(NavnPaaTing.BIL).append("\n")
                 .append("Returner '0' for å logge av");
+        clearConsole();
         System.out.println(sb);
         sb.setLength(0);
     }
@@ -37,6 +41,7 @@ public class MenyvisningsMetoder {
                 .append("\t1. ").append("Registrer en ny ").append(NavnPaaTing.KUNDE).append("\n")
                 .append("\t2. ").append("Lei ut en ").append(NavnPaaTing.BIL).append("\n")
                 .append("Returner '0' for å logge av");
+        clearConsole();
         System.out.println(sb);
         sb.setLength(0);
     }
@@ -45,7 +50,19 @@ public class MenyvisningsMetoder {
                 .append("Vennligst velg en av følgende:\n")
                 .append("\t1. ").append("Lei en ").append(NavnPaaTing.BIL).append("\n")
                 .append("Returner '0' for å logge av");
+        clearConsole();
         System.out.println(sb);
         sb.setLength(0);
+    }
+    static void clearConsole() {
+        try {
+            if (System.getProperty("os.name").contains("Windows"))
+                new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+            else
+                Runtime.getRuntime().exec("clear");
+        } catch (IOException | InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        System.out.println("\n");
     }
 }
