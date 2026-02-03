@@ -4,7 +4,7 @@
 
 This project was [an ungraded obligatory assignment](https://github.com/Iannen/Bilutleie-Edel/blob/main/DAT109%202024%20%C3%98velse%202.pdf) at Western Norway University of Applied Sciences (HVL) for the course 'DAT109 Systemutvikling'
 
-It was developed as a collaborative effort of group 17 in the spring of 2024, group member initials are CH, MA, RM, NL, ØS og TS (They have not been contacted about this republish so I am hesitant to publish full names)
+It was written as a collaborative effort of group 17 in the spring of 2024
 
 ## Run Instructions
 
@@ -22,5 +22,11 @@ It was developed as a collaborative effort of group 17 in the spring of 2024, gr
 java -jar edel.jar
 ```
 
+5. Log in as either
+- Administrator 'Axel Admin' (admin / pass)
+- Kunde kunde1 = 'Kåre Kunde' (kunde / pass)
+- Ekspeditør 'Elise Ekspeditør' = (eks / pass)
+
+The app isn't terribly functional other than offering a login
 
 (For bookkeeping purposes, Previous repo -> https://github.com/h671420/DAT109-Oblig2)

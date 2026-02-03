@@ -120,7 +120,7 @@ public class Prosedyrer {
     }
 
     public static Lokasjon lagLokasjon() {
-        System.out.println("Vennligst oppgit en Id");
+        System.out.println("Vennligst oppgi en Id");
         int id = Integer.parseInt(scanner.nextLine());
         System.out.println("Vennligst oppgi en adresse");
         String adresse = scanner.nextLine();
@@ -153,9 +153,9 @@ public class Prosedyrer {
         String brukernavn = scanner.nextLine();
         System.out.println("Vennligst oppgi passord");
         String passord = scanner.nextLine();
-        System.out.println("Vennligst oppgi fult navn");
+        System.out.println("Vennligst oppgi fullt navn");
         String navn = scanner.nextLine();
-        System.out.println("Vennligst oppgi fult telefonnummer");
+        System.out.println("Vennligst oppgi fullt telefonnummer");
         int telefonnummer = Integer.parseInt(scanner.nextLine());
         System.out.println("Vennligst oppgi adresse");
         String adresse = scanner.nextLine();
